@@ -11,3 +11,8 @@
     color: #000; 
     margin-right: 10px; 
 }
+
+.profile-pic {
+    width: 220px;
+    margin-left: 40px;
+}

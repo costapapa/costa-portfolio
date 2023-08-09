@@ -1,0 +1,24 @@
+.baby-toy-img {
+    max-width: 450%;
+    height: auto;
+}
+.icon {
+    font-size: 3rem; 
+    color: #000; 
+    margin-right: 10px; 
+}
+.project-link {
+    text-decoration: none;
+    background: linear-gradient(90deg, #FD84A3 0%, #FCCB46 100%);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    transition: background 0.3s;
+}
+
+.project-link:hover {
+    color: initial; 
+    background: none; 
+}
+
+  
