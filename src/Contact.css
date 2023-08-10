@@ -1,0 +1,22 @@
+.mt-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.mt-5 a:hover .icon {
+    filter: invert(1);
+}
+
+.icon {
+    margin: 1px;
+   
+}
+
+.Col {
+    padding: 5px;
+}
+
+.mail {
+    text-decoration: none !important;
+    color: inherit !important;
+}

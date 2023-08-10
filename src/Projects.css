@@ -1,6 +1,18 @@
+@media (max-width: 768px) {
+.row.align-items-center {
+      flex-direction: column; /* Change flex direction for smaller screens */
+      text-align: center; /* Center-align the text */
+    }
+  
+.col-4.w-25 {
+      width: 100%; /* Take up full width on smaller screens */
+    }
+}
+
 .baby-toy-img {
-    max-width: 450%;
+    max-width: 40vmin;
     height: auto;
+    margin-bottom: auto;
 }
 .icon {
     font-size: 3rem; 
@@ -19,6 +31,19 @@
 .project-link:hover {
     color: initial; 
     background: none; 
+}
+
+.projects {
+    border: solid #ed8ba2d9 2px;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
   
