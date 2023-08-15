@@ -3,7 +3,7 @@ import apodpage from './img/apodpage.png'
 import workoutlogger from './img/workoutlogger.png'
 import snake from './img/snake.png'
 import './Projects.css'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { DiReact, DiNodejs, DiMongodb, DiPostgresql } from 'react-icons/di'
 import { SiExpress, SiGithub, SiGooglemaps, SiPython, SiDjango, SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si'
 
@@ -40,7 +40,7 @@ function Projects() {
             <Col>
               <div className="col-4 w-25">
                 <div className="d-flex">
-                  <img src={babytoy} alt='babytoy' className="baby-toy-img mr-3 mb-3" />
+                  <Image src={babytoy} alt='babytoy' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px'}} />
                   {/* <img src={toysmap} alt='toysmap' className="baby-toy-img ml-4" /> */}
                 </div>
               </div>
@@ -73,7 +73,7 @@ function Projects() {
             <Col>
               <div className="col-4 w-25">
                 <div className="d-flex">
-                  <img src={apodpage} alt='apodpage' className="baby-toy-img mr-3 mb-3" />
+                  <Image src={apodpage} alt='apodpage' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px'}}  />
                   {/* <img src={albumpage} alt='albumpage' className="baby-toy-img ml-4" /> */}
                 </div>
               </div>
@@ -106,7 +106,7 @@ function Projects() {
             <Col>
               <div className="col-4 w-25">
                 <div className="d-flex">
-                  <img src={workoutlogger} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" />
+                  <Image src={workoutlogger} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px'}} />
                   {/* <img src={toysmap} alt='toysmap' className="baby-toy-img ml-4" /> */}
                 </div>
               </div>
@@ -141,7 +141,7 @@ function Projects() {
             <Col>
               <div className="col-4 w-25">
                 <div className="d-flex">
-                  <img src={snake} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" />
+                  <Image src={snake} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px'}} />
                   {/* <img src={toysmap} alt='toysmap' className="baby-toy-img ml-4" /> */}
                 </div>
               </div>

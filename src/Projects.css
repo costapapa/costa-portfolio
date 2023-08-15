@@ -7,10 +7,17 @@
 .col-4.w-25 {
       width: 100%; /* Take up full width on smaller screens */
     }
+
+.baby-toy-img {
+        align-items: center;
+        height: auto;
+        margin-bottom: auto;
+        margin-left: 50px;
+    }
 }
 
 .baby-toy-img {
-    max-width: 40vmin;
+    align-items: center;
     height: auto;
     margin-bottom: auto;
 }
