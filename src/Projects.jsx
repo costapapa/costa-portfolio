@@ -61,7 +61,7 @@ function Projects() {
               <Col>
                 <div className="col-4 w-25">
                   <div className="d-flex">
-                    <Image src={babytoy} alt='babytoy' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px' }} />
+                    <Image src={babytoy} alt='babytoy' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '280px' }} />
                     {/* <img src={toysmap} alt='toysmap' className="baby-toy-img ml-4" /> */}
                   </div>
                 </div>
@@ -103,7 +103,7 @@ function Projects() {
               <Col>
                 <div className="col-4 w-25">
                   <div className="d-flex">
-                    <Image src={apodpage} alt='apodpage' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px' }} />
+                    <Image src={apodpage} alt='apodpage' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '280px' }} />
                     {/* <img src={albumpage} alt='albumpage' className="baby-toy-img ml-4" /> */}
                   </div>
                 </div>
@@ -145,7 +145,7 @@ function Projects() {
               <Col>
                 <div className="col-4 w-25">
                   <div className="d-flex">
-                    <Image src={workoutlogger} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px' }} />
+                    <Image src={workoutlogger} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '280px' }} />
                     {/* <img src={toysmap} alt='toysmap' className="baby-toy-img ml-4" /> */}
                   </div>
                 </div>
@@ -189,7 +189,7 @@ function Projects() {
               <Col>
                 <div className="col-4 w-25">
                   <div className="d-flex">
-                    <Image src={snake} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '320px' }} />
+                    <Image src={snake} alt='workoutlogger' className="baby-toy-img mr-3 mb-3" style={{ maxWidth: '280px' }} />
                     {/* <img src={toysmap} alt='toysmap' className="baby-toy-img ml-4" /> */}
                   </div>
                 </div>
