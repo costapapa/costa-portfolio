@@ -1,9 +1,17 @@
 import { Container, Row, Col } from "react-bootstrap";
 import './AboutMe.css'
+import { motion } from "framer-motion"
 
 export default function AboutMe() {
+
+  const fadeIn = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 2 } },
+  };
+
   return (
     <>
+      <motion.div initial="hidden" animate="visible" variants={fadeIn}>
       <Container>
       <h1 className="about-me mt-5">About Me</h1>
         <Row>
@@ -32,6 +40,7 @@ export default function AboutMe() {
           <li className="about-me"><span className="weight">McQueens Flowers</span> - Office Manager - September 2012 - December 2018 - London</li>
         </ul>
       </Container>
+      </motion.div>
     </>
   )
 }
