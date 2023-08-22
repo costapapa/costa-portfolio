@@ -29,7 +29,7 @@ export default function Contact() {
                 </motion.div>
                 </Col>
                 <Col className="mt-5 mx-1">
-                <a href="mailto:costa@gmail.com" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:costa.papa87@gmail.com" target="_blank" rel="noopener noreferrer">
                     <SiGmail size={100} color="#f1aa83d9" className="icon" />
                 </a>
                     <p className="mail">costa.papa87@gmail.com</p>
