@@ -35,7 +35,7 @@ export default function Homepage() {
                     </motion.h1>
                         <h2>Software Engineer</h2>
                         <Row md={8} className="mx-auto">
-                        <p className="mt-3">After embarking on a Full Stack General Assembly course, I’m now looking to combine my customer centric mentality with my knowledge and passion for solving problems, to become a well rounded software engineer. I am looking to join a vibrant team that would help me develop my skills and enable me to keep learning. I love working alongside other people and bouncing ideas off of each other. I can’t wait to get started and continue learning!</p>
+                        <p className="mt-3 text-start">After embarking on a Full Stack General Assembly course, I’m now looking to combine my customer centric mentality with my knowledge and passion for solving problems, to become a well rounded software engineer. I am looking to join a vibrant team that would help me develop my skills and enable me to keep learning. I love working alongside other people and bouncing ideas off of each other. I can’t wait to get started and continue learning!</p>
                         </Row>
                     </Col>
                     

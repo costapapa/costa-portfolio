@@ -32,7 +32,7 @@ function Projects() {
 
                   <a href="https://babytoysapp-4319c3b1333b.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Baby Toys App</a></h1>
                 <Row md={8} className="mx-auto">
-                  <p>This project involved creating a Full Stack Web Application. For this project the requirement was to use React Front-End and Express Back-end. I wanted to create a free Baby Toy collection App. As a new Dad I found we have so many unneeded toys, these toys would be valuable to others as baby’s love new toys, but get bored of them very quickly!</p>
+                  <p className="text-start">This project involved creating a Full Stack Web Application. For this project the requirement was to use React Front-End and Express Back-end. I wanted to create a free Baby Toy collection App. As a new Dad I found we have so many unneeded toys, these toys would be valuable to others as baby’s love new toys, but get bored of them very quickly!</p>
                 </Row>
                 <Row>
                   <p>Keys Skills: <DiReact size={30} className="icon m-1" color="#FD84A3" />
@@ -76,7 +76,7 @@ function Projects() {
                 <h1 className="mb-4">
                   <a href="https://space-cat.fly.dev/" target="_blank" rel="noopener noreferrer" className="project-link">Space Cat App</a></h1>
                 <Row md={8} className="mx-auto">
-                  <p>The app was designed to search Nasa Image of the day by date and save the images down to an album. Once the pictures were saved down to the database they made them more easily accessible, as you would not need to keep calling the NASA API. My key contribution to this group project was ensuring the API was working correctly. </p>
+                  <p className="text-start">The app was designed to search Nasa Image of the day by date and save the images down to an album. Once the pictures were saved down to the database they made them more easily accessible, as you would not need to keep calling the NASA API. My key contribution to this group project was ensuring the API was working correctly. </p>
                 </Row>
                 <p className="mt-5">Keys Skills:
                   <SiPython size={30} className="icon m-2" color="#FD84A3" />
@@ -118,7 +118,7 @@ function Projects() {
                 <h1 className="mb-4">
                   <a href="https://workoutlogger.fly.dev/" target="_blank" rel="noopener noreferrer" className="project-link">Workout Logger</a></h1>
                 <Row md={10} className="mx-auto">
-                  <p>The app was designed as an app where you could record and log all your workouts. I learnt how to implement database information through my app and even included Google Authentication for users to sign up . The goal of the project was to create an App that included CRUD (Create, Read, Update & Delete) functionality.</p>
+                  <p className="text-start">The app was designed as an app where you could record and log all your workouts. I learnt how to implement database information through my app and even included Google Authentication for users to sign up . The goal of the project was to create an App that included CRUD (Create, Read, Update & Delete) functionality.</p>
                 </Row>
                 <p>Keys Skills: <SiJavascript size={30} className="icon m-2" color="#FD84A3" />
                   <SiExpress size={30} className="icon m-2" color="#FD84A3" />
@@ -161,7 +161,7 @@ function Projects() {
                   <a href="https://costapapa.github.io/snake/" target="_blank" rel="noopener noreferrer" className="project-link">Snake Game</a></h1>
                 <Row md={8} className="mx-auto">
 
-                  <p> Involved learning Javascript Fundamentals. For this Solo project I created a clone of the famous Snake Game within 5 days.
+                  <p className="text-start"> Involved learning Javascript Fundamentals. For this Solo project I created a clone of the famous Snake Game within 5 days.
                     The technical processes involved learning how to manipulate DOM and the basics of building a game using Javascript, HTML and CSS.
                   </p>
                 </Row>

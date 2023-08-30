@@ -4,12 +4,34 @@
    
 }
 
-.list {
+/* .list {
     list-style: none;
-}
+} */
 
 .weight {
     font-style: italic;
     text-decoration: underline;
 }
 
+.experience-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-list li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* .experience-list .about-me {
+    text-align: center; 
+    margin: 10px 0; 
+} */
+
+#ul-parent {
+    display: flex;
+    justify-content: center;
+}
